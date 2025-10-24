@@ -2,8 +2,8 @@
 <html>
   <head>
   <title>Dalpek Configuration</title>
-  <link rel='stylesheet' type='text/css' href='/www.dalpek.com/pebble/Creepy/css/slate.css'>
-  <script src='/www.dalpek.com/pebble/Creepy/js/slate.js'></script>
+  <link rel='stylesheet' type='text/css' href='../css/slate.css'>
+  <script src='../js/slate.js'></script>
   <style>
   .title {
     padding: 15px 10px;
@@ -43,7 +43,7 @@
   function getConfigData() {
 
     var secondOffCheckbox = document.getElementById('second_off_checkbox');
- 
+
     var options = {
       'second_off': secondOffCheckbox.checked,
     };
@@ -67,7 +67,7 @@
     }
     return defaultValue || false;
   }
- 
+
   var submitButton = document.getElementById('submit_button');
   submitButton.addEventListener('click', function() {
     console.log('Submit');
