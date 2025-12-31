@@ -3,6 +3,8 @@ Since app config pages are self hosted by developers of apps, some will inevitab
 
 https://github.com/clach04/Pebble-App-Config-Page-Backup/
 
+Also see related https://github.com/clach04/PebbleArchive - https://github.com/clach04/PebbleArchive/tree/mine/PebbleAppStore/apps
+
 ## Reading
 Data on each app and it's config pages are in output.json. You must generate output.json by appending all of the chunks together. This file was split because it was larger than the maximum file size allowed on GitHub. Other files are split into folders by their hostname.
 
