@@ -8,7 +8,7 @@ Data on each app and it's config pages are in output.json. You must generate out
 
 See:
 
-  * process_json.py to process json data (and create index.txt and potentially 357Mb pretty_catalog.json)
+  * process_json.py to process json data (and create index.txt and potentially 357Mb pretty_catalog.json) - see https://github.com/clach04/Pebble-App-Config-Page-Backup/releases/tag/20251230 for pre-built download
   * [index.txt](index.txt) for appid to URL mapping
 
 ## Takedowns

@@ -25,8 +25,15 @@ for filename in [x.strip() for x in fnames.split('\n') if x and x.strip()]:
     f.close()
 data = json.loads(b''.join(data))
 
-"""
 filename = 'pretty_catalog.json'
+"""
+f = open(filename, 'wb')
+#f.write(json.dumps(data).encode('utf-8'))  # not pretty, 350,393,757 bytes
+f.write(json.dumps(data, indent=4).encode('utf-8'))  # 357,036,287 bytes
+f.close()
+"""
+
+"""
 #log.info('filename %r', filename)
 f = open(filename, 'rb')
 data = f.read()
@@ -61,4 +68,4 @@ for app in data:
             print('%s_url different from base' % (platform_name, ))
     print('')
 
-    
+
